@@ -17,7 +17,15 @@
         font-size: 1.1rem;
         margin: 0;
 
-      @media(min-width: 530px){
+      @mixin atSmall{
+        font-size: 2rem;
+      }
+
+      @mixin atMedium{
+        font-size: 2.9rem;
+      }
+
+      @mixin atLarge{
         font-size: 4.8rem;
       }
     }
@@ -25,8 +33,20 @@
     &-subtitle{
           font-weight: 300;
           color: $mainBlue;
-          font-size: 2.9rem;
+          font-size: .9rem;
           margin: 0;
+
+          @mixin atSmall{
+            font-size: 2rem;
+          }
+
+          @mixin atMedium{
+            font-size: 2.5rem;
+          }
+
+          @mixin atLarge{
+            font-size: 4.5rem;
+          }
      }
 
      &-description{
