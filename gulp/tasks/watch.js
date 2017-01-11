@@ -20,7 +20,7 @@ gulp.task("watch",function(){
         gulp.start('html');
     });
 
-    watch('./app/styles/**/*.css',function(){
+    watch('./app/styles/**/*.pcss',function(){
         gulp.start('cssInject');
     });
 });
