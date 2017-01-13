@@ -7,4 +7,30 @@
     background-color: $mainBlue;
     color: #FFF;
   }
+
+  &-testimonials{
+
+    background-color: #e0e6f6;
+
+    @mixin atLarge{
+      background-image: url('/assets/images/testimonials-bg.jpg');
+      background-size: cover;
+    }
+  }
+
+  &-section-no-b-padding-until-medium{
+    padding-bottom: 0;
+
+    @mixin atMedium{
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  &-section-no-b-padding-until-medium{
+    padding-bottom: 0;
+
+    @mixin atLarge{
+      padding-bottom: 4.5rem;
+    }
+  }
 }
