@@ -1,2 +1,4 @@
 .idea/
 node_modules/
+app/styles/dist
+app/styles/temp
