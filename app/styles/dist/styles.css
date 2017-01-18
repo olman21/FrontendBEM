@@ -696,7 +696,7 @@ a{
 
 @media (min-width: 1010px) {
 
-  .page-section-testimonials {
+  .page-section-testimonials.lazyloaded {
     background-image: url('/assets/images/testimonials-bg.jpg');
     background-size: cover;
   }
