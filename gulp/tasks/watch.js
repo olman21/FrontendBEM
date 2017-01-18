@@ -23,4 +23,10 @@ gulp.task("watch",function(){
     watch('./app/styles/**/*.pcss',function(){
         gulp.start('cssInject');
     });
+
+    watch(['./app/scripts/**/*.js','!./app/scripts/dist'],function(){
+        gulp.start('scripts',function(){
+            browserSync.reload();
+        });
+    });
 });
