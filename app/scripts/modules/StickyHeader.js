@@ -5,6 +5,7 @@ import smoothScroll from 'jquery-smooth-scroll';
 
 class StickyHeader{
     constructor(){
+        //comment
         this.siteHeader = $('.site-header');
         this.triggerElement = $('.large-hero-subtitle');
         this.createHeaderWaypoint();

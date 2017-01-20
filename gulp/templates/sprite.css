@@ -3,6 +3,10 @@
 .icon{
     background-image: url('sprite/{{{sprite}}}');
 }
+
+.no-svg .icon{
+    background-image: url('sprite/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+}
 {{/first}}
 .icon-{{base}}{
 width:{{width.outer}}px;

@@ -11203,6 +11203,7 @@
 	    function StickyHeader() {
 	        _classCallCheck(this, StickyHeader);
 
+	        //comment
 	        this.siteHeader = (0, _jquery2.default)('.site-header');
 	        this.triggerElement = (0, _jquery2.default)('.large-hero-subtitle');
 	        this.createHeaderWaypoint();
